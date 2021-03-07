@@ -8,3 +8,15 @@ Array.prototype.multBy = function (n){
     })
 }
 console.log(array.multBy(2));
+
+// Check is odd Function
+Number.prototype.isOdd = function (){
+    if(this & 1){
+        return false
+    }else{
+        return true;
+    }
+}
+
+const some = 2;
+console.log(some.isOdd());
